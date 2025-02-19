@@ -109,50 +109,83 @@ function App() {
       {/* Experience Section */}
       <section id="experience" className="py-20">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Professional Experience</h2>
-          <div className="space-y-8">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-start">
-                <Briefcase className="h-6 w-6 text-indigo-600 mt-1" />
-                <div className="ml-4">
-                  <h3 className="text-xl font-semibold">Head of Growth Marketing</h3>
-                  <p className="text-gray-600">Acme Technologies • Feb 2022 - Present</p>
-                  <ul className="mt-4 space-y-2 text-gray-600">
-                    <li>• Led growth initiatives resulting in 150% YoY user acquisition increase</li>
-                    <li>• Managed $5M+ annual marketing budget across multiple channels</li>
-                    <li>• Built and scaled a team of 15 growth marketers</li>
-                    <li>• Implemented data-driven marketing strategies resulting in 40% improvement in ROI</li>
-                  </ul>
+          <h2 className="text-3xl font-bold text-center mb-12">Professional Journey</h2>
+          <div className="relative">
+            {/* Timeline line */}
+            <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-indigo-200"></div>
+            
+            {/* Experience items */}
+            <div className="space-y-12">
+              {/* Current Role */}
+              <div className="relative">
+                <div className="flex items-center mb-4 md:justify-center">
+                  <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full border-4 border-white"></div>
+                  <div className="ml-16 md:ml-0 md:absolute md:left-[52%] text-sm text-indigo-600 font-semibold">
+                    Present
+                  </div>
+                </div>
+                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm md:relative">
+                  <div className="flex items-start">
+                    <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
+                    <div className="ml-4">
+                      <h3 className="text-xl font-semibold">Head of Growth Marketing</h3>
+                      <p className="text-gray-600">Acme Technologies • Feb 2022 - Present</p>
+                      <ul className="mt-4 space-y-2 text-gray-600">
+                        <li>• Led growth initiatives resulting in 150% YoY user acquisition increase</li>
+                        <li>• Managed $5M+ annual marketing budget across multiple channels</li>
+                        <li>• Built and scaled a team of 15 growth marketers</li>
+                        <li>• Implemented data-driven marketing strategies resulting in 40% improvement in ROI</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-start">
-                <Briefcase className="h-6 w-6 text-indigo-600 mt-1" />
-                <div className="ml-4">
-                  <h3 className="text-xl font-semibold">Senior Growth Marketing Manager</h3>
-                  <p className="text-gray-600">Growth Co • Jan 2021 - Feb 2022</p>
-                  <ul className="mt-4 space-y-2 text-gray-600">
-                    <li>• Developed and executed growth strategy for B2B SaaS product</li>
-                    <li>• Achieved 200% increase in qualified leads through optimization</li>
-                    <li>• Led a team of 8 marketing specialists</li>
-                  </ul>
+              {/* Previous Role 1 */}
+              <div className="relative">
+                <div className="flex items-center mb-4 md:justify-center">
+                  <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-400 rounded-full border-4 border-white"></div>
+                  <div className="ml-16 md:ml-0 md:absolute md:right-[52%] text-sm text-indigo-600 font-semibold">
+                    2022
+                  </div>
+                </div>
+                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm md:relative md:left-[52%]">
+                  <div className="flex items-start">
+                    <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
+                    <div className="ml-4">
+                      <h3 className="text-xl font-semibold">Senior Growth Marketing Manager</h3>
+                      <p className="text-gray-600">Growth Co • Jan 2021 - Feb 2022</p>
+                      <ul className="mt-4 space-y-2 text-gray-600">
+                        <li>• Developed and executed growth strategy for B2B SaaS product</li>
+                        <li>• Achieved 200% increase in qualified leads through optimization</li>
+                        <li>• Led a team of 8 marketing specialists</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-start">
-                <Briefcase className="h-6 w-6 text-indigo-600 mt-1" />
-                <div className="ml-4">
-                  <h3 className="text-xl font-semibold">Growth Marketing Manager</h3>
-                  <p className="text-gray-600">Digital Solutions Inc • Dec 2017 - Dec 2019</p>
-                  <ul className="mt-4 space-y-2 text-gray-600">
-                    <li>• Spearheaded growth initiatives across multiple product lines</li>
-                    <li>• Increased conversion rates by 85% through A/B testing</li>
-                    <li>• Managed successful product launches and campaigns</li>
-                  </ul>
+              {/* Previous Role 2 */}
+              <div className="relative">
+                <div className="flex items-center mb-4 md:justify-center">
+                  <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-300 rounded-full border-4 border-white"></div>
+                  <div className="ml-16 md:ml-0 md:absolute md:left-[52%] text-sm text-indigo-600 font-semibold">
+                    2019
+                  </div>
+                </div>
+                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm">
+                  <div className="flex items-start">
+                    <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
+                    <div className="ml-4">
+                      <h3 className="text-xl font-semibold">Growth Marketing Manager</h3>
+                      <p className="text-gray-600">Digital Solutions Inc • Dec 2017 - Dec 2019</p>
+                      <ul className="mt-4 space-y-2 text-gray-600">
+                        <li>• Spearheaded growth initiatives across multiple product lines</li>
+                        <li>• Increased conversion rates by 85% through A/B testing</li>
+                        <li>• Managed successful product launches and campaigns</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
