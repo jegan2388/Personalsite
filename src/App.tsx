@@ -55,7 +55,7 @@ function App() {
             Hi, I'm Jegan
         </h1>
         <h1 className="text-4xl font-bold text-gray-700 mb-4">
-            Growth Marketing Leader | Scaling Businesses and Building High-Performing Teams
+            I craft marketing strategies that go beyond lead generation—building scalable, full-funnel growth engines that drive predictable growth, from awareness to conversion and long-term retentions
         </h1>
         <h2 className="text-2xl text-gray-600 mb-8">
             Driving 10x+ Growth for Leading Tech Companies
@@ -124,13 +124,14 @@ function App() {
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
-                      <h3 className="text-xl font-semibold">Head of Growth Marketing</h3>
-                      <p className="text-gray-600">Acme Technologies • Feb 2022 - Present</p>
+                      <h3 className="text-xl font-semibold">Sr. Demand Generation Manager</h3>
+                      <p className="text-gray-600">ContactMonkey • Feb 2022 - Present</p>
                       <ul className="mt-4 space-y-2 text-gray-600">
-                        <li>• Led growth initiatives resulting in 150% YoY user acquisition increase</li>
-                        <li>• Managed $5M+ annual marketing budget across multiple channels</li>
-                        <li>• Built and scaled a team of 15 growth marketers</li>
-                        <li>• Implemented data-driven marketing strategies resulting in 40% improvement in ROI</li>
+                        <li>• Influenced $63Mn in pipeline by driving full-funnel marketing strategies—from demand creation to conversion optimization and sales acceleration</li>
+                        <li>• Optimized lead nurturing with HubSpot, Salesloft, and Salesforce, increasing lead-to-opportunity conversion by 47%</li>
+                        <li>• Refined lead scoring with sales, improving MQL-to-SQL by 23% and opp-to-trial conversion by 15%</li>
+                        <li>• Ran 95+ A/B tests, boosting website conversion rates by 33% and improving funnel efficiency</li>
+                        <li>• Implemented AI-driven workflows, enhancing efficiency in data analysis and content creation</li>
                       </ul>
                     </div>
                   </div>
@@ -149,12 +150,12 @@ function App() {
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
-                      <h3 className="text-xl font-semibold">Senior Growth Marketing Manager</h3>
-                      <p className="text-gray-600">Growth Co • Jan 2021 - Feb 2022</p>
+                      <h3 className="text-xl font-semibold">Manager - Marketing Analytics & PPC</h3>
+                      <p className="text-gray-600">Scribendi • Jan 2021 - Feb 2022</p>
                       <ul className="mt-4 space-y-2 text-gray-600">
-                        <li>• Developed and executed growth strategy for B2B SaaS product</li>
-                        <li>• Achieved 200% increase in qualified leads through optimization</li>
-                        <li>• Led a team of 8 marketing specialists</li>
+                        <li>• Identified key revenue drivers and built real-time Tableau dashboards, enabling data-driven decisions that increased revenue by 12.5%</li>
+                        <li>• Optimized PPC campaigns across Google, Bing, and affiliates, improving ROAS by 17%</li>
+                        <li>• Improved website conversion flow through rapid experimentation, increasing conversion rates by 22%</li>
                       </ul>
                     </div>
                   </div>
