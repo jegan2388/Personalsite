@@ -51,7 +51,7 @@ function App() {
         <h1 className="text-5xl font-bold text-gray-900 mb-4">
             Hi, I'm Jegan
         </h1>
-        <h1 className="text-4xl font-bold text-gray-700 mb-4">
+        <h1 className="text-4xl font-bold text-gray-500 mb-4">
             I craft marketing strategies that go beyond lead generation—building scalable, full-funnel growth engines that drive predictable growth, from awareness to conversion and long-term retention
         </h1>
         <h2 className="text-2xl text-gray-600 mb-8">
@@ -261,7 +261,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Marketing Philosophy</h2>
           <div className="bg-white p-8 rounded-lg shadow-sm">
-            <p className="text-gray-600 text-lg leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed center-text">
                 Persona-Centric, Experimentation-Forward, and Deeply Collaborative - with an emphasis on data-driven insights and sustainable growth, supported by emotional resonance and brand-building.”
    </p>
           </div>
@@ -275,17 +275,17 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Let's Connect</h2>
           <div className="flex justify-center space-x-6">
-            <a href="mailto:your.email@example.com"
+            <a href="mailto:r.jegan2388@gmail.com"
               className="flex items-center text-gray-600 hover:text-indigo-600">
               <Mail className="h-6 w-6 mr-2" />
               Email
             </a>
-            <a href="https://linkedin.com/in/yourprofile"
+            <a href="https://linkedin.com/in/jegan-ramanathan"
               className="flex items-center text-gray-600 hover:text-indigo-600">
               <Linkedin className="h-6 w-6 mr-2" />
               LinkedIn
             </a>
-            <a href="https://github.com/yourusername"
+            <a href="https://github.com/jegan2388"
               className="flex items-center text-gray-600 hover:text-indigo-600">
               <Github className="h-6 w-6 mr-2" />
               GitHub
@@ -297,7 +297,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p>© 2024 Growth Marketing Portfolio. All rights reserved.</p>
+          <p>© 2025 Growth Marketing Portfolio. All rights reserved.</p>
         </div>
       </footer>
     </div>
