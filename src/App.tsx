@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import {
-  TrendingUp,
-  Users,
-  Target,
   Briefcase,
   Mail,
   Github,
@@ -55,7 +52,7 @@ function App() {
             Hi, I'm Jegan
         </h1>
         <h1 className="text-4xl font-bold text-gray-700 mb-4">
-            I craft marketing strategies that go beyond lead generation—building scalable, full-funnel growth engines that drive predictable growth, from awareness to conversion and long-term retentions
+            Growth Marketing Leader | Scaling Businesses and Building High-Performing Teams
         </h1>
         <h2 className="text-2xl text-gray-600 mb-8">
             Driving 10x+ Growth for Leading Tech Companies
@@ -162,15 +159,36 @@ function App() {
                 </div>
               </div>
 
+                {/* MBA Break */}
+                <div className="relative">
+                    <div className="flex items-center mb-4 md:justify-center">
+                    <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-4 border-white"></div>
+                    <div className="ml-16 md:ml-0 md:absolute md:left-[52%] text-sm text-green-600 font-semibold">
+                        2019 - 2021
+                    </div>
+                </div>
+                <div className="mx-auto w-full md:w-[90%] bg-white p-6 rounded-lg shadow-sm">
+                    <h3 className="text-xl font-semibold text-center">MBA, McGill University</h3>
+                    <p className="text-gray-600 text-center mb-4">Desautels Faculty of Management</p>
+                    <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>Concentration in Global Strategy & Leadership, and Marketing</li>
+                    <li>Led student body as President of Desautels Graduate Society, overseeing 100+ events and managing $70K budget</li>
+                    <li>VP Marketing for McGill Not-for-Profit Consulting, supporting 4 non-profit projects</li>
+                    <li>Co-founded social enterprise for indigenous communities in Guatemala, providing consulting services</li>
+                    <li>Selected for Silicon Valley Startup Tour, meeting founders & VCs at 20+ tech companies</li>
+                    </ul>
+                </div>
+                </div>
+
               {/* Previous Role 2 */}
               <div className="relative">
                 <div className="flex items-center mb-4 md:justify-center">
                   <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-300 rounded-full border-4 border-white"></div>
-                  <div className="ml-16 md:ml-0 md:absolute md:left-[52%] text-sm text-indigo-600 font-semibold">
+                  <div className="ml-16 md:ml-0 md:absolute md:right-[52%] text-sm text-indigo-600 font-semibold">
                     2019
                   </div>
                 </div>
-                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm">
+                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm md:relative md:left-[52%]">
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
@@ -189,11 +207,11 @@ function App() {
               <div className="relative">
                 <div className="flex items-center mb-4 md:justify-center">
                   <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-300 rounded-full border-4 border-white"></div>
-                  <div className="ml-16 md:ml-0 md:absolute md:right-[52%] text-sm text-indigo-600 font-semibold">
+                  <div className="ml-16 md:ml-0 md:absolute md:left-[52%] text-sm text-indigo-600 font-semibold">
                     2017
                   </div>
                 </div>
-                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm md:relative md:left-[52%]">
+                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm md:relative">
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
@@ -213,11 +231,11 @@ function App() {
               <div className="relative">
                 <div className="flex items-center mb-4 md:justify-center">
                   <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-300 rounded-full border-4 border-white"></div>
-                  <div className="ml-16 md:ml-0 md:absolute md:left-[52%] text-sm text-indigo-600 font-semibold">
+                  <div className="ml-16 md:ml-0 md:absolute md:right-[52%] text-sm text-indigo-600 font-semibold">
                     2015
                   </div>
                 </div>
-                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm">
+                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm md:relative md:left-[52%]">
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
@@ -227,30 +245,6 @@ function App() {
                         <li>• Revamped digital marketing strategy, enhancing brand presence and creating a new lead gen channel.</li>
                         <li>• Drove $400K in pipeline through inbound and content marketing in 9 months</li>
                         <li>• Provided research and strategic recommendations that helped secure a $1.3M deal with a US-based hospital.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-        {/* Previous Role 5 */}
-              <div className="relative">
-                <div className="flex items-center mb-4 md:justify-center">
-                  <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-300 rounded-full border-4 border-white"></div>
-                  <div className="ml-16 md:ml-0 md:absolute md:right-[52%] text-sm text-indigo-600 font-semibold">
-                    2013
-                  </div>
-                </div>
-                <div className="ml-16 md:ml-0 md:w-[45%] bg-white p-6 rounded-lg shadow-sm md:relative md:left-[52%]">
-                  <div className="flex items-start">
-                    <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
-                    <div className="ml-4">
-                      <h3 className="text-xl font-semibold">Growth Marketing Manager</h3>
-                      <p className="text-gray-600">Digital Solutions Inc • Dec 2011 - Dec 2013</p>
-                      <ul className="mt-4 space-y-2 text-gray-600">
-                        <li>• Spearheaded growth initiatives across multiple product lines</li>
-                        <li>• Increased conversion rates by 85% through A/B testing</li>
-                        <li>• Managed successful product launches and campaigns</li>
                       </ul>
                     </div>
                   </div>
@@ -269,11 +263,7 @@ function App() {
           <h2 className="text-3xl font-bold text-center mb-12">Marketing Philosophy</h2>
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <p className="text-gray-600 text-lg leading-relaxed">
-              As a Head of Growth Marketing, my vision is to drive sustainable business
-              growth through innovative strategies, data-driven decision making, and
-              building high-performing teams. I believe in creating scalable marketing
-              systems that deliver consistent results while maintaining agility to adapt
-              to changing market conditions.
+                My marketing philosophy centers on a holistic, data-driven approach that prioritizes sustainable growth and customer lifetime value. I believe in going beyond surface-level metrics, and diving deep into customer behavior and motivations to create truly resonant marketing experiences. It is also about building strong relationships. By fostering a collaborative environment where data insights, creativity, and customer empathy converge, I aim to build marketing engines that deliver exceptional results and contribute to long-term business success.
             </p>
           </div>
         </div>
