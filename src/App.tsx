@@ -52,10 +52,10 @@ function App() {
             Hi, I'm Jegan
         </h1>
         <h1 className="text-4xl font-bold text-gray-700 mb-4">
-            Growth Marketing Leader | Scaling Businesses and Building High-Performing Teams
+            I craft marketing strategies that go beyond lead generation—building scalable, full-funnel growth engines that drive predictable growth, from awareness to conversion and long-term retention
         </h1>
         <h2 className="text-2xl text-gray-600 mb-8">
-            Driving 10x+ Growth for Leading Tech Companies
+      
         </h2>
           <div className="flex justify-center space-x-4">
             <button
@@ -171,11 +171,10 @@ function App() {
                     <h3 className="text-xl font-semibold text-center">MBA, McGill University</h3>
                     <p className="text-gray-600 text-center mb-4">Desautels Faculty of Management</p>
                     <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                    <li>Concentration in Global Strategy & Leadership, and Marketing</li>
-                    <li>Led student body as President of Desautels Graduate Society, overseeing 100+ events and managing $70K budget</li>
-                    <li>VP Marketing for McGill Not-for-Profit Consulting, supporting 4 non-profit projects</li>
-                    <li>Co-founded social enterprise for indigenous communities in Guatemala, providing consulting services</li>
-                    <li>Selected for Silicon Valley Startup Tour, meeting founders & VCs at 20+ tech companies</li>
+                    <li>Capstone Project, Leading Canadian Bank – Analyzed credit adjudication processes, delivering insights to improve efficiency and decision quality.</li>
+                    <li>Marketing Strategy, Bensadoun School – Designed a comprehensive outreach and recruitment strategy for the launch of the MMR program.</li>
+                    <li>Consultant, Thinkr Consulting – Led two nonprofit projects, developing GTM and social media strategies to improve outreach and engagement</li>
+                    <li>Product Management & PPC Intern, MoveMate – Enhanced PPC performance and streamlined website booking flow to improve conversions</li>
                     </ul>
                 </div>
                 </div>
@@ -263,8 +262,8 @@ function App() {
           <h2 className="text-3xl font-bold text-center mb-12">Marketing Philosophy</h2>
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <p className="text-gray-600 text-lg leading-relaxed">
-                My marketing philosophy centers on a holistic, data-driven approach that prioritizes sustainable growth and customer lifetime value. I believe in going beyond surface-level metrics, and diving deep into customer behavior and motivations to create truly resonant marketing experiences. It is also about building strong relationships. By fostering a collaborative environment where data insights, creativity, and customer empathy converge, I aim to build marketing engines that deliver exceptional results and contribute to long-term business success.
-            </p>
+                Persona-Centric, Experimentation-Forward, and Deeply Collaborative - with an emphasis on data-driven insights and sustainable growth, supported by emotional resonance and brand-building.”
+   </p>
           </div>
         </div>
       </section>
