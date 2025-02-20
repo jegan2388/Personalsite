@@ -174,12 +174,12 @@ function App() {
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
-                      <h3 className="text-xl font-semibold">Growth Marketing Manager</h3>
-                      <p className="text-gray-600">Digital Solutions Inc • Dec 2017 - Dec 2019</p>
+                      <h3 className="text-xl font-semibold">Freelance Marketing Consultant</h3>
+                      <p className="text-gray-600"> • Dec 2017 - Present</p>
                       <ul className="mt-4 space-y-2 text-gray-600">
-                        <li>• Spearheaded growth initiatives across multiple product lines</li>
-                        <li>• Increased conversion rates by 85% through A/B testing</li>
-                        <li>• Managed successful product launches and campaigns</li>
+                        <li>• Worked on 8+ projects across SaaS, B2B services, and D2C, driving marketing and growth initiatives for startups and SMEs</li>
+                        <li>• Led digital marketing & partnerships for A.R. Rahman’s One Heart Concert, generating 85% of sales ($970K) through online channels</li>
+                        <li>• Helped three pre-seed startups go from zero to revenue, supporting product strategy, go-to-market, and growth execution</li>
                       </ul>
                     </div>
                   </div>
@@ -197,12 +197,13 @@ function App() {
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
-                      <h3 className="text-xl font-semibold">Growth Marketing Manager</h3>
-                      <p className="text-gray-600">Digital Solutions Inc • Dec 2015 - Dec 2017</p>
+                      <h3 className="text-xl font-semibold">Head - Digital Marketing & Marketing Analyticsr</h3>
+                      <p className="text-gray-600">HeroTalkies (Acquired by YuppTV) • Sept 2015 - May 2018</p>
                       <ul className="mt-4 space-y-2 text-gray-600">
-                        <li>• Spearheaded growth initiatives across multiple product lines</li>
-                        <li>• Increased conversion rates by 85% through A/B testing</li>
-                        <li>• Managed successful product launches and campaigns</li>
+                        <li>• Scaled revenue by 600% to $1M in 2 years, leading an 8-member team and managing a $400K annual budget through growth hacking and multi-channel marketing</li>
+                        <li>• Reduced churn by 12.5% in 6 months using data modeling, driving a $34K quarterly impact in partnership with Data Analytics teams.</li>
+                        <li>• Drove market expansion into Dubai & Sri Lanka, launching set-top boxes and operator billing, increasing quarterly revenue by 7.5%s</li>
+                        <li>• Drove market expansion into Dubai & Sri Lanka, launching set-top boxes and operator billing, increasing quarterly revenue by 7.5%s</li>
                       </ul>
                     </div>
                   </div>
@@ -220,12 +221,12 @@ function App() {
                   <div className="flex items-start">
                     <Briefcase className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                     <div className="ml-4">
-                      <h3 className="text-xl font-semibold">Growth Marketing Manager</h3>
-                      <p className="text-gray-600">Digital Solutions Inc • Dec 2013 - Dec 2015</p>
+                      <h3 className="text-xl font-semibold">Associate - Digital Marketing & Market Research</h3>
+                      <p className="text-gray-600">GAVS Technologies • Feb 2012 - Jul 2015</p>
                       <ul className="mt-4 space-y-2 text-gray-600">
-                        <li>• Spearheaded growth initiatives across multiple product lines</li>
-                        <li>• Increased conversion rates by 85% through A/B testing</li>
-                        <li>• Managed successful product launches and campaigns</li>
+                        <li>• Revamped digital marketing strategy, enhancing brand presence and creating a new lead gen channel.</li>
+                        <li>• Drove $400K in pipeline through inbound and content marketing in 9 months</li>
+                        <li>• Provided research and strategic recommendations that helped secure a $1.3M deal with a US-based hospital.</li>
                       </ul>
                     </div>
                   </div>
